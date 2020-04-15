@@ -5,6 +5,12 @@
     - cover background with the "map-bg.jpg" image in the images directory. 
 */
 
+body {
+    font-family: 'Lato';
+    font-size: 18px;
+    background: url(../images/map-bg.jpg);
+}
+
 nav {
     font-family: sans-serif;
     font-size: 10px;
@@ -22,6 +28,12 @@ nav {
         - set the font color to #5d4037
 */
 
+header {
+    font-family: 'Supermercado One';
+    font-size: 45px;
+    color: #5d4037;
+}
+
 /* 
     Update the following ruleset (#menu) to accomplish the following:
         - Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. 
@@ -29,7 +41,10 @@ nav {
 
 #menu {
     columns: 400px 2;
+    column-rule: dashed;
     column-gap: 100px;
+    column-rule-style: 2px;
+    column-rule-color: rosybrown;
 }
 
 section {
@@ -46,11 +61,21 @@ h2 {
         - set the font color to #6d4c41
 */
 
+#menu {
+    font: small-caps;
+    color: #6d4c41;
+}
+
 /* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
         - Set the font size to 20px
         - Make the font bold
 */
+
+dt {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 dd {
     margin: 0 0 12px 0;
@@ -70,6 +95,8 @@ dd {
 .price {
     order: 2;
     padding-left: 10px;
+    font-size: large;
+    color: firebrick;
 }
 
 address {
@@ -80,3 +107,9 @@ address {
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
 */
+
+footer {
+    border: 2px;
+    border-color: rosybrown;
+    border-style: dashed;
+}
