@@ -26,7 +26,7 @@ nav {
         - use a lighter weight font
 */
 
-header {
+h1 {
     font-family: 'Bungee Inline';
     font-size: 46px;
     font-weight: lighter;
@@ -51,7 +51,7 @@ h2 {
         - Show each of the section headings of the menu in uppercase
 */
 
-menu {
+h2 {
     text-transform: uppercase;
 }
 
@@ -72,7 +72,7 @@ dt {
     - Make a comma appear after the name of each menu item
 */
 
-menu::after {
+dt::after {
     content: ",";
 }
 
@@ -107,11 +107,9 @@ footer {
     - draw a 2px black border around the sections
 */
 
-.staters {
-    border-color: black;
-    border: 2px;
+#starters {
+    border:2px solid black;
 }
-.dessert {
-    border-color: black;
-    border: 2px;
+#desserts {
+    border: 2px solid black;
 }

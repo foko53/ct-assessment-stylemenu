@@ -9,6 +9,7 @@ body {
     font-family: 'Lato';
     font-size: 18px;
     background: url(../images/map-bg.jpg);
+    background-size: cover;
 }
 
 nav {
@@ -28,7 +29,7 @@ nav {
         - set the font color to #5d4037
 */
 
-header {
+h1 {
     font-family: 'Supermercado One';
     font-size: 45px;
     color: #5d4037;
@@ -41,10 +42,9 @@ header {
 
 #menu {
     columns: 400px 2;
-    column-rule: dashed;
+    column-rule: 2px dashed rosybrown;
     column-gap: 100px;
-    column-rule-style: 2px;
-    column-rule-color: rosybrown;
+
 }
 
 section {
@@ -62,7 +62,7 @@ h2 {
 */
 
 #menu {
-    font: small-caps;
+    font-variant: small-caps;
     color: #6d4c41;
 }
 
