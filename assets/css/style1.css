@@ -61,7 +61,7 @@ h2 {
         - set the font color to #6d4c41
 */
 
-#menu {
+section {
     font-variant: small-caps;
     color: #6d4c41;
 }
